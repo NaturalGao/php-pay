@@ -1,0 +1,24 @@
+{
+    "name": "natural-gao/php-pay",
+    "Author": "NaturalGao",
+    "version": "0.0.1",
+    "description": "PHP 支付扩展",
+    "autoload": {
+        "psr-4": {
+            "NaturalGao\\PhpPay\\": "src/"
+        },
+        "files": [
+            "src/func.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "NaturalGao"
+        }
+    ],
+    "require": {
+        "alipaysdk/easysdk": "^2.0",
+        "w7corp/easywechat": "^6.4"
+    },
+    "license": "MIT"
+}
